@@ -4,6 +4,8 @@
 \usepackage{lscape}
 \graphicspath{ {images/} }
 
+\usepackage{biblatex}
+\bibliography{../books}
 \title{Amplifier Topologies}
 \author{Simon Hobbs}
 \newcommand{\imwidth}{0.2\textwidth}
@@ -36,6 +38,8 @@ AKA emitter follower
 
 
 \chapter{Basic Single FET}
+\cite{feucht2010designing}
+\cite{artOfElectronics}
 \section{Common-Source}
 \section{Common-Gate}
 \section{Common-Drain}
@@ -60,5 +64,6 @@ AKA Long-tail
 \section{Emitter Degeneration}
 \section{Bootstraping}
 
-
+\nocite{*}
+\printbibliography
 \end{document}
