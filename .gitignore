@@ -1,0 +1,13 @@
+%latex
+*.blg
+*.aux
+*.log
+*.nav
+*.bbl
+*.run.xml
+*.bcf
+
+
+%vim
+*.swp
+*.swo
